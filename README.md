@@ -23,7 +23,7 @@ python encrypt-decrypt.py
 ## Installation
 1. Clone the repository: 
 ```sh
-git clone https://github.com/yourusername/encrypt-decrypt.git
+git clone https://github.com/emrenos/encrypt-decrypt.git
 cd encrypt-decrypt
 ```
 2. Install the required libraries:
