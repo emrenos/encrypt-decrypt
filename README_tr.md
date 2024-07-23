@@ -1,39 +1,48 @@
 # Caesar Cipher :lock::key:
-Bu proje, mesajların kodlanması ve çözülmesi için basit bir Caesar Cipher metodunu uygular. Caesar Cipher, düz metindeki her harfin alfabede belirli sayıda aşağı veya yukarı kaydırıldığı bir tür yer değiştirme şifresidir.
+
+Bu, Caesar Şifreleme tekniğini kullanarak metni kodlamak ve çözmek için bir grafiksel kullanıcı arayüzü (GUI) uygulamasıdır. Uygulama Python ve Tkinter kütüphanesi kullanılarak oluşturulmuştur ve ek olarak art ve Pillow kütüphanelerine bağımlıdır.
 
 ## Özellikler
-- Harfleri belirli bir sayı kadar kaydırarak metni şifreler.
-- Kaydırmayı tersine çevirerek metnin şifresini çözer.
+- **Metni Şifrele:** Mesajınızı bir kaydırma değeri kullanarak kodlayın.
+- **Metni Çöz:** Aynı kaydırma değerini kullanarak şifrelenmiş mesajınızı çözün.
+- **Dinamik Alfabe Genişletme:** Metinde belirli harfler varsa otomatik olarak alfabeyi genişletir.
 
 ## Kullanım
-- **Yön**: Şifrelemek için `encode` veya şifresini çözmek için `decode` yazın.
-- **Mesaj**: Kodlamak veya kodunu çözmek istediğiniz metin.
-- **Kaydırma Numarası**: Harfleri kaydırmak istediğiniz konum sayısı.
-
-## Örnek Kullanım
+1.   Uygulamayı çalıştırın:
 ```sh
-Type 'encode' to encrypt, type 'decode' to decrypt:
-encode
-Type your message:
-hello
-Type the shift number:
-5
-The encoded text is mjqqt
-
-Type 'yes' to want to go again, type 'no' to want to quit. 
-no
-Thanks for using Caesar Cipher!
+python encrypt-decrypt.py
 ```
+2. GUI Kullanımı:
+- **Mesajınızı yazın:** Kodlamak veya çözmek istediğiniz metni sağlanan giriş alanına girin.
+- **Kaydırma numarasını yazın:** Caesar Cipher için sayısal kaydırma değerini girin.
+- **Encrypt ve Decrypt:** Mesajı kodlamak için "ENCRYPT" butonuna veya mesajı çözmek için "DECRYPT" butonuna tıklayın.
+- Sonuç, butonların altındaki metin alanında görüntülenecektir.
+
+&emsp; ![](https://github.com/emrenos/encrypt-decrypt/blob/main/crpyt-gif.gif)
 
 ## Kurulum
-Repoyu yerel makinenize klonlayın:
+1. Repoyu klonlayın: 
 ```sh
-git clone https://github.com/yourusername/caesar-cipher.git
-cd caesar-cipher
+git clone https://github.com/emrenos/encrypt-decrypt.git
+cd encrypt-decrypt
+```
+2. Gerekli kütüphaneleri yükleyin:
+```sh 
+pip install Pillow
+```
+3. Tkinter'in yüklü olduğundan emin olun:
+Tkinter genellikle Python ile birlikte gelir, ancak manuel olarak yüklemeniz gerekirse, paket yöneticinizle bunu yapabilirsiniz. Örneğin:
+- &emsp; **On Ubuntu:**
+```sh
+sudo apt-get install python3-tk
+```
+- &emsp;  **On macOS with Homebrew:**
+```sh
+brew install python-tk
 ```
 
-## Yapılacak Güncellemeler
-1. **GUI Entegrasyonu**: Bir sonraki güncelleme, kullanıcıların şifreleme ve şifre çözme işlemlerini terminal yerine GUI üzerinden gerçekleştirmelerine olanak tanıyan bir arayüz sunacaktır.
+## Gelecek Güncellemeler
+1. **GUI Entegrasyonu** :white_check_mark:
 2. **Gelişmiş Şifreleme Yöntemi**: Şifreleme yöntemi, güvenliği artırmak için Caesar Cipher metodundan daha üst bir algoritmaya yükseltilecektir.
 
 ##
