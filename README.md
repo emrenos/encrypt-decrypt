@@ -1,43 +1,48 @@
-# Caesar Cipher :lock::key:
+# Caesar Cipher with GUI :lock::key:
 
-This project implements a simple Caesar Cipher for encoding and decoding messages. The Caesar Cipher is a type of substitution cipher in which each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+This is a graphical user interface (GUI) application for encoding and decoding text using the Caesar Cipher technique. The application is built using Python and the Tkinter library, with additional dependencies on the art and Pillow libraries.
 
 ## Features
-
-- Encrypts text by shifting letters by a given number.
-- Decrypts text by reversing the shift.
+- **Encrypt Text:** Encode your message using a shift value.
+- **Decrypt Text:** Decode your encrypted message using the same shift value.
+- **Dynamic Alphabet Extension:** Automatically extends the alphabet if certain letters are present in the text.
 
 ## Usage
-- **Direction**: Type `encode` to encrypt or `decode` to decrypt.
-- **Message**: The text you want to encode or decode.
-- **Shift Number**: The number of positions by which you want to shift the letters.
-
-## Example
+1.   Run the application:
 ```sh
-Type 'encode' to encrypt, type 'decode' to decrypt:
-encode
-Type your message:
-hello
-Type the shift number:
-5
-The encoded text is mjqqt
-
-Type 'yes' to want to go again, type 'no' to want to quit. 
-no
-Thanks for using Caesar Cipher!
+python encrypt-decrypt.py
 ```
+2. Using the GUI:
+- **Type your message:** Enter the text you want to encrypt or decrypt in the provided input field.
+- **Type the shift number:** Enter the numerical shift value for the Caesar Cipher.
+- **Encrypt or Decrypt:** Click the "ENCRYPT" button to encode the message or the "DECRYPT" button to decode the message.
+- The result will be displayed in the text area below the buttons.
+
+&emsp; ![](https://github.com/emrenos/encrypt-decrypt/blob/main/crpyt-gif.gif)
 
 ## Installation
-
-Clone the repository to your local machine:
-
+1. Clone the repository: 
 ```sh
-git clone https://github.com/yourusername/caesar-cipher.git
-cd caesar-cipher
+git clone https://github.com/yourusername/encrypt-decrypt.git
+cd encrypt-decrypt
+```
+2. Install the required libraries:
+```sh 
+pip install Pillow
+```
+3. Ensure Tkinter is installed:
+Tkinter is usually included with Python, but if you need to install it manually, you can do so with your package manager. For example:
+- &emsp; **On Ubuntu:**
+```sh
+sudo apt-get install python3-tk
+```
+- &emsp;  **On macOS with Homebrew:**
+```sh
+brew install python-tk
 ```
 
 ## Upcoming Updates
-1. **GUI Integration**: The next update will introduce an interface that allows users to perform encryption and decryption operations via GUI instead of terminal.
+1. **GUI Integration** :white_check_mark:
 2. **Advanced Encryption Method**: The encryption method will be upgraded from the Caesar Cipher to a more sophisticated algorithm to enhance security.
 
 ##
