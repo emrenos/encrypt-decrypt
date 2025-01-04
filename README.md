@@ -1,5 +1,9 @@
 # Caesar Cipher :lock::key:
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Encryption](https://img.shields.io/badge/Encryption-Cryptography?style=for-the-badge&logo=lock&logoColor=white)
+
+
 This project implements a simple Caesar Cipher for encoding and decoding messages. The Caesar Cipher is a type of substitution cipher in which each letter in the plaintext is shifted a certain number of places down or up the alphabet.
 
 ## Features
