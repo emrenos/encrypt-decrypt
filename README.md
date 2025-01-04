@@ -39,9 +39,3 @@ Clone the repository to your local machine:
 git clone https://github.com/yourusername/caesar-cipher.git
 cd caesar-cipher
 ```
-
-## Upcoming Updates
-1. **GUI Integration**: The next update will introduce an interface that allows users to perform encryption and decryption operations via GUI instead of terminal.
-2. **Advanced Encryption Method**: The encryption method will be upgraded from the Caesar Cipher to a more sophisticated algorithm to enhance security.
-
-##
