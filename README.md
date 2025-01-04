@@ -1,5 +1,8 @@
 # Caesar Cipher with GUI :lock::key:
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Encryption](https://img.shields.io/badge/Encryption-Cryptography?style=for-the-badge&logo=lock&logoColor=white)
+
 This is a graphical user interface (GUI) application for encoding and decoding text using the Caesar Cipher technique. The application is built using Python and the Tkinter library, with additional dependencies on the art and Pillow libraries.
 
 ## Features
@@ -40,9 +43,3 @@ sudo apt-get install python3-tk
 ```sh
 brew install python-tk
 ```
-
-## Upcoming Updates
-1. **GUI Integration** :white_check_mark:
-2. **Advanced Encryption Method**: The encryption method will be upgraded from the Caesar Cipher to a more sophisticated algorithm to enhance security.
-
-##
